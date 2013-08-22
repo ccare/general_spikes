@@ -1,0 +1,28 @@
+
+label {
+	width:  100%;
+	float:left;
+	padding-bottom: 0.5em;
+}
+
+label input {
+	position: absolute;
+	left: 10em;
+	width: 13em;
+}
+
+label select {
+	position: absolute;
+	left: 10em;
+}
+
+label span {
+	bottom: -0.2em;
+	position: relative;
+}
+
+label span.validationMessage {
+	left: 15em;
+	font-weight: bold;
+	color: red;
+}
